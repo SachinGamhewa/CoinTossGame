@@ -3,9 +3,14 @@ package app;
 import java.util.Random;
 
 public class Coin {
+    
     private String side;
-    public String getSide(){return side;}
-    public void setSide (String side){this.side=side;}
+    public String getSide(){
+        return side;
+    }
+    public void setSide (String side){
+        this.side=side;
+    }
 
     private final String CONST_HEADS ="H";
     public String getCONST_HEADS(){return CONST_HEADS;}
